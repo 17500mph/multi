@@ -1,20 +1,20 @@
 /*
 Theme Name: Multi
-Theme URI: http://buynowshop.com/themes/desk-mess-mirrored/
+Theme URI: http://buynowshop.com/themes/desk-mess-mirrored/multi/
 Description: Child of Desk Mess Mirrored - Marble desktop covered with a mix of old and new items, such as some vintage papers, a stainless steel pen, and, a hot cup of coffee! Please read the included changelog.txt file for the details of the latest changes.  
-Version: 1.9
+Version: 1.9.1
 Template: desk-mess-mirrored
-Template Version: 1.9
+Template Version: 1.9.1
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
-Tags: brown, orange, silver, tan, light, two-columns, right-sidebar, fixed-width
+WordPress Version Required: 3.0
+Tested Up To: 3.3
+Tags: brown, orange, silver, tan, light, two-columns, right-sidebar, fixed-width, threaded-comments, sticky-post, custom-menu, custom-background
 WordPress Version: 3.2.1
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 @import url("../desk-mess-mirrored/style.css");
-
-/* Last Revised July 13, 2011, to match Desk Mess Mirrored v1.9 */
 
 /*=- Specials -=*/
 div.textwidget form input { border: none; } /* Specifically added for PayPal Donate button */

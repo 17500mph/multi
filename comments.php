@@ -4,6 +4,8 @@
  *
  * @version 1.9.1
  * Last revised December 1, 2011
+ *
+ * @todo Remove? This template file may be identical to the Desk Mess Mirrored version
  */
 // Do not delete these lines
 if ( !empty( $_SERVER['SCRIPT_FILENAME'] ) && 'comments.php' == basename( $_SERVER['SCRIPT_FILENAME'] ) )
