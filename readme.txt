@@ -13,7 +13,6 @@ http://wordpress.org/extend/themes/desk-mess-mirrored/
 * Review Tickets
 * Et Cetera
 
-
 == Basic FAQ ==
 * TBA
 
