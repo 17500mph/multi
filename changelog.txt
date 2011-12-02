@@ -1,4 +1,7 @@
 ==== Changelog.txt ====
+= Version 2.0 =
+* Modified <title> tag content to use `dmm_wp_title`
+
 = Version 1.9.1 =
 * Matched to Desk Mess Mirrored 1.9.1
 

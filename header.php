@@ -4,8 +4,9 @@
 /**
  * Multi a Child-Theme of Desk Mess Mirrored
  *
- * @version 1.9.1
- * Last revised December 1, 2011
+ * @version 2.0
+ * Modified <title> tag content to use `dmm_wp_title`
+ * Last revised December 2, 2011
  */
 ?>
 <head profile="http://gmpg.org/xfn/11">
