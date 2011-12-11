@@ -2,11 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <?php
 /**
- * Multi a Child-Theme of Desk Mess Mirrored
+ * Multi
+ * a Child-Theme of Desk Mess Mirrored
  *
- * @version 2.0
- * Modified <title> tag content to use `dmm_wp_title`
+ * @package     Desk_Mess_Mirrored
+ * @subpackage  Multi
+ *
+ * @internal    Child-Theme version should always match the Parent-Theme version
+ *
  * Last revised December 2, 2011
+ * @version     2.0
+ * Modified <title> tag content to use `dmm_wp_title`
  */
 ?>
 <head profile="http://gmpg.org/xfn/11">

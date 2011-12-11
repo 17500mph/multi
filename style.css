@@ -1,19 +1,43 @@
 /*
 Theme Name: Multi
 Theme URI: http://buynowshop.com/themes/desk-mess-mirrored/multi/
-Description: Child of Desk Mess Mirrored - Marble desktop covered with a mix of old and new items, such as some vintage papers, a stainless steel pen, and, a hot cup of coffee! Please read the included changelog.txt file for the details of the latest changes.  
+Description: Child-Theme of Desk Mess Mirrored <strong>2.0</strong> - Marble desktop covered with a mix of old and new items, such as some vintage papers, a stainless steel pen, and, a hot cup of coffee! Please read the included changelog.txt, readme.txt, and support.txt files for the details of the latest changes and other important information.
 Version: 2.0
 Template: desk-mess-mirrored
 Template Version: 2.0
 Author: Edward Caissie
 Author URI: http://edwardcaissie.com/
-WordPress Version Required: 3.0
+WordPress Version Required: 3.1.0
 Tested Up To: 3.3
 Tags: brown, orange, silver, tan, light, two-columns, right-sidebar, fixed-width, threaded-comments, sticky-post, custom-menu, custom-background
-WordPress Version: 3.2.1
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
+
+/**
+ * Copyright 2009-2011  Edward Caissie  (email : edward.caissie@gmail.com)
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 2, as published by the
+ * Free Software Foundation.
+ *
+ * You may NOT assume that you can use any other version of the GPL.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program; if not, write to:
+ *
+ *      Free Software Foundation, Inc.
+ *      51 Franklin St, Fifth Floor
+ *      Boston, MA  02110-1301  USA
+ *
+ * The license for this software can also likely be found here:
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
 @import url("../desk-mess-mirrored/style.css");
 
 /*=- Specials -=*/
