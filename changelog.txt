@@ -1,6 +1,9 @@
 ==== Changelog.txt ====
 = Version 2.0 =
+* Added project documentation doc-block to 'header.php'
 * Modified <title> tag content to use `dmm_wp_title`
+* Removed the 'author' template as it is functionally identical to the Desk Mess Mirrored 'author' template
+* Removed the 'comment' template as it is functionally identical to the Desk Mess Mirrored 'comment' template
 
 = Version 1.9.1 =
 * Matched to Desk Mess Mirrored 1.9.1
