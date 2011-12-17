@@ -15,14 +15,15 @@
  *
  * @package     Desk_Mess_Mirrored
  * @subpackage  Multi
+ * @since       1.8.3
  *
- * @internal    Child-Theme version should always match the Parent-Theme version
- *
+ * @link        http://wordpress.org/extend/themes/desk-mess-mirrored
  * @link        http://buynowshop.com/themes/desk-mess-mirrored/multi
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
  * @link        http://wordpress.org/extend/themes/multi/ - old version
  *
- * @internal    REQUIRES WordPress version 3.1.0 per Desk Mess Mirrored
+ * @internal    Child-Theme version should always match the Parent-Theme version
+ * @internal    REQUIRES WordPress version 3.1.0 per Desk Mess Mirrored 2.0
  *
  * @author      Edward Caissie <edward.caissie@gmail.com>
  * @copyright   Copyright (c) 2009-2011, Edward Caissie
@@ -47,13 +48,14 @@
  * The license for this software can also likely be found here:
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
- * @internal    Project To-do List (PTL)
- * @internal    see readme.txt for pre-2.0 PTL
- *
  * Last revised December 11, 2011
- * @version     2.0
- * Modified <title> tag content to use `dmm_wp_title`
+ * @version     2.0-RC1
+ * Modified `title` HTML tag content to use `dmm_wp_title`
  * Removed the 'author' and 'comment' templates as they are functionally identical to the Desk Mess Mirrored templates
+ *
+ * @internal    Project To-do List (see readme.txt for pre-2.0)
+ * @todo Review idea of adding `wp_die` call if Child-Theme and Parent-Theme version do not match? Is there a viable alternative to stop processing?
+ * @todo Review idea of adding option to modify RSS feed in header cup (source: Rick Hackett rhhackett@telus.net)
  */
 ?>
 <head profile="http://gmpg.org/xfn/11">
