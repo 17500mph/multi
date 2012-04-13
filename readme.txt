@@ -27,6 +27,7 @@ http://wordpress.org/extend/themes/desk-mess-mirrored/
 
 == Review Tickets at WordPress.org ==
 * http://themes.trac.wordpress.org/ticket/3199 - version 1.8.3
+* http://themes.trac.wordpress.org/ticket/7346 - version 2.0.2
 
 == Et Cetera ==
 * GitHub: https://github.com/Cais/multi
