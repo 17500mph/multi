@@ -26,10 +26,10 @@ http://wordpress.org/extend/themes/desk-mess-mirrored/
 * see changelog.txt
 
 == Review Tickets at WordPress.org ==
-* No longer applicable - Child-Themes are not currently being accepted to the WordPress.org Extend Themes repository
+* http://themes.trac.wordpress.org/ticket/3199 - version 1.8.3
 
 == Et Cetera ==
 * GitHub: https://github.com/Cais/multi
 
 ----
-Last revised December 1, 2011
+Last revised April 12, 2012
