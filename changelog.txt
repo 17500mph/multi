@@ -1,4 +1,7 @@
 ==== Changelog.txt ====
+= Version 2.0.3 =
+* Changed `dmm_wp_title` to use the `wp_title`
+
 = Version 2.0.2 =
 * Added project documentation doc-block to 'header.php'
 * Modified HTML title tag to use `dmm_wp_title`

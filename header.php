@@ -4,7 +4,7 @@
 /**
  * Multi
  *
- * A Child-Theme of Desk Mess Mirrored 2.0 - Marble desktop covered with a mix
+ * A Child-Theme of Desk Mess Mirrored 2.0.3 - Marble desktop covered with a mix
  * of old and new items, such as some vintage papers, a stainless steel pen,
  * and, a hot cup of coffee!
  *
@@ -18,9 +18,8 @@
  * @since       1.8.3
  *
  * @link        http://wordpress.org/extend/themes/desk-mess-mirrored
- * @link        http://buynowshop.com/themes/desk-mess-mirrored/multi
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
- * @link        http://wordpress.org/extend/themes/multi/ - old version
+ * @link        http://wordpress.org/extend/themes/multi/
  *
  * @internal    Child-Theme version should always match the Parent-Theme version
  * @internal    REQUIRES WordPress version 3.1.0 per Desk Mess Mirrored 2.0
@@ -48,10 +47,9 @@
  * The license for this software can also likely be found here:
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
- * Last revised December 11, 2011
- * @version     2.0-RC1
- * Modified `title` HTML tag content to use `dmm_wp_title`
- * Removed the 'author' and 'comment' templates as they are functionally identical to the Desk Mess Mirrored templates
+ * @version     2.0.3
+ * @date        July 5, 2012
+ * Changed `dmm_wp_title` to use the `wp_title`
  *
  * @internal    Project To-do List (see readme.txt for pre-2.0)
  * @todo Review idea of adding `wp_die` call if Child-Theme and Parent-Theme version do not match? Is there a viable alternative to stop processing?
@@ -60,7 +58,7 @@
 ?>
 <head profile="http://gmpg.org/xfn/11">
     <meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
-    <title><?php dmm_wp_title(); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php wp_head(); ?>
