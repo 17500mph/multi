@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 <?php
 /**
  * Multi
@@ -51,14 +51,15 @@
  * @date        July 5, 2012
  * Changed `dmm_wp_title` to use the `wp_title`
  *
- * @internal    Project To-do List (see readme.txt for pre-2.0)
- * @todo Review idea of adding `wp_die` call if Child-Theme and Parent-Theme version do not match? Is there a viable alternative to stop processing?
- * @todo Review idea of adding option to modify RSS feed in header cup (source: Rick Hackett rhhackett@telus.net)
+ * @version     2.1
+ * @date        December 13, 2012
+ * Version matching with Parent-Theme Desk Mess Mirrored
  */
 ?>
-<head profile="http://gmpg.org/xfn/11">
-    <meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php wp_head(); ?>

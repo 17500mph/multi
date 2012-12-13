@@ -1,4 +1,8 @@
 ==== Changelog.txt ====
+= Version 2.1 =
+* Update version to match Parent-Theme Desk Mess Mirrored
+* Minor code refactoring
+
 = Version 2.0.3 =
 * Changed `dmm_wp_title` to use the `wp_title`
 
