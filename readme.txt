@@ -30,3 +30,4 @@ http://wordpress.org/extend/themes/desk-mess-mirrored/
 * http://themes.trac.wordpress.org/ticket/7346 - version 2.0.2
 * http://themes.trac.wordpress.org/ticket/8501 - version 2.0.3
 * http://themes.trac.wordpress.org/ticket/10342 - version 2.1
+* http://themes.trac.wordpress.org/ticket/11664 - version 2.1.1 - March 2013
