@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
 <?php
 /**
  * Multi
  *
- * A Child-Theme of Desk Mess Mirrored 2.0.3 - Marble desktop covered with a mix
+ * A Child-Theme of Desk Mess Mirrored - Marble desktop covered with a mix
  * of old and new items, such as some vintage papers, a stainless steel pen,
  * and, a hot cup of coffee!
  *
@@ -21,11 +19,10 @@
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
  * @link        http://wordpress.org/extend/themes/multi/
  *
- * @internal    Child-Theme version should always match the Parent-Theme version
- * @internal    REQUIRES WordPress version 3.1.0 per Desk Mess Mirrored 2.0
+ * @internal    REQUIRES WordPress version 3.4 per Desk Mess Mirrored 2.2
  *
  * @author      Edward Caissie <edward.caissie@gmail.com>
- * @copyright   Copyright (c) 2009-2012, Edward Caissie
+ * @copyright   Copyright (c) 2009-2013, Edward Caissie
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
@@ -54,8 +51,16 @@
  * @version     2.1
  * @date        December 13, 2012
  * Version matching with Parent-Theme Desk Mess Mirrored
- */
-?>
+ *
+ * @version     2.1.1
+ * @date        March 13, 2013
+ * Minor documentation and code formatting
+ * Updated Copyright Years
+ */ ?>
+
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <title><?php wp_title( '|', true, 'right' ); ?></title>
@@ -64,20 +69,32 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php wp_head(); ?>
 </head>
+
 <body <?php body_class(); ?>>
+
     <div id="mainwrap">
+
         <div id="header-container">
+
             <div id="header"> <!-- header -->
+
                 <div id="headerleft"></div>
+
                 <div id="logo">
-                    <h2><a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h2>
+                    <h2>
+                        <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
+                    </h2>
                     <p><?php bloginfo( 'description' ); ?></p>
-                </div> <!-- #logo -->
+                </div><!-- #logo -->
+
                 <div id="cup">
                     <a href="<?php echo get_feed_link( 'rss2' ); ?>" title="<?php _e( 'Add this blog to any reader', 'desk-mess-mirrored' ); ?>"><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" /></a>
                 </div><!-- #cup -->
+
                 <div id="top-navigation-menu">
                     <?php dmm_nav_menu(); ?>
                 </div>
-            </div> <!-- #header -->
-        </div> <!-- #header-container -->
+
+            </div><!-- #header -->
+
+        </div><!-- #header-container -->

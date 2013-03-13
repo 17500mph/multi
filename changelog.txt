@@ -1,4 +1,8 @@
 ==== Changelog.txt ====
+= Version 2.1.1 =
+* Minor documentation and code formatting
+* Updated Copyright Years
+
 = Version 2.1 =
 * Update version to match Parent-Theme Desk Mess Mirrored
 * Minor code refactoring
