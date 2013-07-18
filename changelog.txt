@@ -1,4 +1,8 @@
 ==== Changelog.txt ====
+= Version 2.1.2 =
+* Released July 2013
+* Corrected Textdomain used by theme
+
 = Version 2.1.1 =
 * Minor documentation and code formatting
 * Updated Copyright Years

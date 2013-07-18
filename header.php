@@ -56,6 +56,10 @@
  * @date        March 13, 2013
  * Minor documentation and code formatting
  * Updated Copyright Years
+ *
+ * @version     2.1.2
+ * @date        July 18, 2013
+ * Corrected Textdomain used by theme
  */ ?>
 
 <!DOCTYPE html>
@@ -88,7 +92,7 @@
                 </div><!-- #logo -->
 
                 <div id="cup">
-                    <a href="<?php echo get_feed_link( 'rss2' ); ?>" title="<?php _e( 'Add this blog to any reader', 'desk-mess-mirrored' ); ?>"><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" /></a>
+                    <a href="<?php echo get_feed_link( 'rss2' ); ?>" title="<?php _e( 'Add this blog to any reader', 'multi' ); ?>"><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" /></a>
                 </div><!-- #cup -->
 
                 <div id="top-navigation-menu">
