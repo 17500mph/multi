@@ -1,4 +1,9 @@
 ==== Changelog.txt ====
+= Version 2.1.3 =
+* Released August 2014
+* Updated copyright year and minor code formatting
+* Updated `screenshot.png` to 880x660 size
+
 = Version 2.1.2 =
 * Released July 2013
 * Corrected Textdomain used by theme

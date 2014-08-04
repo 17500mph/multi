@@ -22,7 +22,7 @@
  * @internal    REQUIRES WordPress version 3.4 per Desk Mess Mirrored 2.2
  *
  * @author      Edward Caissie <edward.caissie@gmail.com>
- * @copyright   Copyright (c) 2009-2013, Edward Caissie
+ * @copyright   Copyright (c) 2009-2014, Edward Caissie
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
@@ -60,45 +60,60 @@
  * @version     2.1.2
  * @date        July 18, 2013
  * Corrected Textdomain used by theme
- */ ?>
+ *
+ * @version     2.1.3
+ * @date        August 2014
+ */
+?>
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
-    <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen" />
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-    <?php wp_head(); ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>"
+		  type="text/css" media="screen" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 
-    <div id="mainwrap">
+<div id="mainwrap">
 
-        <div id="header-container">
+	<div id="header-container">
 
-            <div id="header"> <!-- header -->
+		<div id="header"> <!-- header -->
 
-                <div id="headerleft"></div>
+			<div id="headerleft"></div>
 
-                <div id="logo">
-                    <h2>
-                        <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
-                    </h2>
-                    <p><?php bloginfo( 'description' ); ?></p>
-                </div><!-- #logo -->
+			<div id="logo">
+				<h2>
+					<a href="<?php echo home_url( '/' ); ?>"
+					   title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
+				</h2>
 
-                <div id="cup">
-                    <a href="<?php echo get_feed_link( 'rss2' ); ?>" title="<?php _e( 'Add this blog to any reader', 'multi' ); ?>"><img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" /></a>
-                </div><!-- #cup -->
+				<p><?php bloginfo( 'description' ); ?></p>
+			</div>
+			<!-- #logo -->
 
-                <div id="top-navigation-menu">
-                    <?php dmm_nav_menu(); ?>
-                </div>
+			<div id="cup">
+				<a href="<?php echo get_feed_link( 'rss2' ); ?>"
+				   title="<?php _e( 'Add this blog to any reader', 'multi' ); ?>"><img
+						alt=""
+						src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png"
+						border="0" /></a>
+			</div>
+			<!-- #cup -->
 
-            </div><!-- #header -->
+			<div id="top-navigation-menu">
+				<?php dmm_nav_menu(); ?>
+			</div>
 
-        </div><!-- #header-container -->
+		</div>
+		<!-- #header -->
+
+	</div>
+	<!-- #header-container -->
