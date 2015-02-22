@@ -15,6 +15,9 @@
  * @subpackage  Multi
  * @since       1.8.3
  *
+ * @version     2.1.4
+ * @date        February 2015
+ *
  * @link        http://wordpress.org/extend/themes/desk-mess-mirrored
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
  * @link        http://wordpress.org/extend/themes/multi/
@@ -22,7 +25,7 @@
  * @internal    REQUIRES WordPress version 3.4 per Desk Mess Mirrored 2.2
  *
  * @author      Edward Caissie <edward.caissie@gmail.com>
- * @copyright   Copyright (c) 2009-2014, Edward Caissie
+ * @copyright   Copyright (c) 2009-2015, Edward Caissie
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
@@ -43,38 +46,15 @@
  *
  * The license for this software can also likely be found here:
  * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * @version     2.0.3
- * @date        July 5, 2012
- * Changed `dmm_wp_title` to use the `wp_title`
- *
- * @version     2.1
- * @date        December 13, 2012
- * Version matching with Parent-Theme Desk Mess Mirrored
- *
- * @version     2.1.1
- * @date        March 13, 2013
- * Minor documentation and code formatting
- * Updated Copyright Years
- *
- * @version     2.1.2
- * @date        July 18, 2013
- * Corrected Textdomain used by theme
- *
- * @version     2.1.3
- * @date        August 2014
  */
 ?>
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>"
-		  type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php wp_head(); ?>
 </head>
@@ -90,9 +70,9 @@
 			<div id="headerleft"></div>
 
 			<div id="logo">
+
 				<h2>
-					<a href="<?php echo home_url( '/' ); ?>"
-					   title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
+					<a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
 				</h2>
 
 				<p><?php bloginfo( 'description' ); ?></p>

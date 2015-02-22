@@ -1,4 +1,8 @@
 ==== Changelog.txt ====
+= Version 2.1.4 =
+* Released February 2015
+* Updated copyright year and minor code formatting
+
 = Version 2.1.3 =
 * Released August 2014
 * Updated copyright year and minor code formatting
