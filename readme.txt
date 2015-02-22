@@ -1,5 +1,5 @@
 ==== Multi Readme.txt ====
-Last revised August 4, 2014
+Last revised February 22, 2015
 Multi is a WordPress Child-Theme of Desk Mess Mirrored. The Desk Mess Mirrored
 theme is required to be installed for the Multi Child-Theme to function.
 
@@ -33,3 +33,4 @@ http://wordpress.org/extend/themes/desk-mess-mirrored/
 * http://themes.trac.wordpress.org/ticket/11664 - version 2.1.1 - March 2013
 * http://themes.trac.wordpress.org/ticket/13444 - version 2.1.2 - July 2013
 * https://themes.trac.wordpress.org/ticket/20076 - version 2.1.3 - August 2014
+* https://themes.trac.wordpress.org/ticket/23381 - version 2.1.4 - February 2015
