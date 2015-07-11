@@ -15,12 +15,12 @@
  * @subpackage  Multi
  * @since       1.8.3
  *
- * @version     2.1.4
- * @date        February 2015
+ * @version     2.2
+ * @date        July 2015
  *
  * @link        http://wordpress.org/extend/themes/desk-mess-mirrored
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
- * @link        http://wordpress.org/extend/themes/multi/
+ * @link        https://wordpress.org/themes/multi/
  *
  * @internal    REQUIRES WordPress version 3.4 per Desk Mess Mirrored 2.2
  *
