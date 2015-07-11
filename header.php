@@ -52,7 +52,12 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
+
+	<?php /** Check for WordPress 4.1.x compatibility */
+	if ( ! function_exists( '_wp_render_title_tag' ) ) { ?>
+		<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<?php } ?>
+
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -80,11 +85,9 @@
 			<!-- #logo -->
 
 			<div id="cup">
-				<a href="<?php echo get_feed_link( 'rss2' ); ?>"
-				   title="<?php _e( 'Add this blog to any reader', 'multi' ); ?>"><img
-						alt=""
-						src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png"
-						border="0" /></a>
+				<a href="<?php echo get_feed_link( 'rss2' ); ?>" title="<?php esc_attr_e( 'Add this blog to any reader', 'multi' ); ?>">
+					<img alt="<?php esc_attr_e( 'Coffee Cup image used as link visual link', 'multi' ); ?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" />
+				</a>
 			</div>
 			<!-- #cup -->
 

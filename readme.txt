@@ -1,16 +1,16 @@
 ==== Multi Readme.txt ====
-Last revised February 22, 2015
+Last revised July 11, 2015
+
 Multi is a WordPress Child-Theme of Desk Mess Mirrored. The Desk Mess Mirrored
 theme is required to be installed for the Multi Child-Theme to function.
 
 Please download the Desk Mess Mirrored theme from this WordPress.org page:
-http://wordpress.org/extend/themes/desk-mess-mirrored/
+https://wordpress.org/themes/desk-mess-mirrored/
 
 == Contents ==
 * Basic FAQ
 * Notes
-* TODO Items
-* changelog.txt extended details
+* Changelog
 * Review Tickets
 
 == Basic FAQ ==
@@ -19,11 +19,54 @@ http://wordpress.org/extend/themes/desk-mess-mirrored/
 == Notes ==
 * TBA
 
-== TODO Items ==
-* see inline documentation
-
 == Changelog ==
-* see changelog.txt
+= Version 2.2 =
+* Released ...
+* Moved the changelog details into the `readme.txt` file
+* Updated `header.php` to reflect usage of `add_theme_support` for the `title` tag
+
+= Version 2.1.4 =
+* Released February 2015
+* Updated copyright year and minor code formatting
+
+= Version 2.1.3 =
+* Released August 2014
+* Updated copyright year and minor code formatting
+* Updated `screenshot.png` to 880x660 size
+
+= Version 2.1.2 =
+* Released July 2013
+* Corrected Textdomain used by theme
+
+= Version 2.1.1 =
+* Minor documentation and code formatting
+* Updated Copyright Years
+
+= Version 2.1 =
+* Update version to match Parent-Theme Desk Mess Mirrored
+* Minor code refactoring
+
+= Version 2.0.3 =
+* Changed `dmm_wp_title` to use the `wp_title`
+
+= Version 2.0.2 =
+* Added project documentation doc-block to 'header.php'
+* Modified HTML title tag to use `dmm_wp_title`
+* Removed the 'author' template as it is functionally identical to the Desk Mess Mirrored 'author' template
+* Removed the 'comment' template as it is functionally identical to the Desk Mess Mirrored 'comment' template
+* Matched to Desk Mess Mirrored 2.0.2
+
+= Version 1.9.1 =
+* Matched to Desk Mess Mirrored 1.9.1
+
+= Version 1.9 =
+* Updated and corrected menu issues introduced at 1.8.7
+
+= Version 1.8.7 =
+* modified header.php to match menu element `nav-menu`
+
+= Version 1.8.3 =
+* Update Template Version to match current version of Desk Mess Mirrored (v1.8.3)
 
 == Review Tickets at WordPress.org ==
 * http://themes.trac.wordpress.org/ticket/3199 - version 1.8.3
