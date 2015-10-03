@@ -16,7 +16,7 @@
  * @since       1.8.3
  *
  * @version     2.2
- * @date        July 2015
+ * @date        October 2015
  *
  * @link        http://wordpress.org/extend/themes/desk-mess-mirrored
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
@@ -86,7 +86,7 @@
 
 			<div id="cup">
 				<a href="<?php echo get_feed_link( 'rss2' ); ?>" title="<?php esc_attr_e( 'Add this blog to any reader', 'multi' ); ?>">
-					<img alt="<?php esc_attr_e( 'Coffee Cup image used as link visual link', 'multi' ); ?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" />
+					<img alt="<?php esc_attr_e( 'Coffee cup image used as visual link', 'multi' ); ?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/rsscup.png" border="0" />
 				</a>
 			</div>
 			<!-- #cup -->

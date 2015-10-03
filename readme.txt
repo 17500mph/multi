@@ -1,5 +1,5 @@
 ==== Multi Readme.txt ====
-Last revised July 11, 2015
+Last revised October 3, 2015
 
 Multi is a WordPress Child-Theme of Desk Mess Mirrored. The Desk Mess Mirrored
 theme is required to be installed for the Multi Child-Theme to function.
@@ -24,6 +24,8 @@ https://wordpress.org/themes/desk-mess-mirrored/
 * Released ...
 * Moved the changelog details into the `readme.txt` file
 * Updated `header.php` to reflect usage of `add_theme_support` for the `title` tag
+* Added `Text Domain: multi`
+* Updated minor grammar issues in texts
 
 = Version 2.1.4 =
 * Released February 2015
