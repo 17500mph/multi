@@ -15,17 +15,17 @@
  * @subpackage  Multi
  * @since       1.8.3
  *
- * @version     2.2
- * @date        October 2015
+ * @version     2.3
+ * @date        February 2016
  *
  * @link        http://wordpress.org/extend/themes/desk-mess-mirrored
  * @link        https://github.com/Cais/desk-mess-mirrored/multi
  * @link        https://wordpress.org/themes/multi/
  *
- * @internal    REQUIRES WordPress version 3.4 per Desk Mess Mirrored 2.2
+ * @internal    REQUIRES WordPress version 4.1 per Desk Mess Mirrored 2.5
  *
  * @author      Edward Caissie <edward.caissie@gmail.com>
- * @copyright   Copyright (c) 2009-2015, Edward Caissie
+ * @copyright   Copyright (c) 2009-2016, Edward Caissie
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
@@ -52,12 +52,6 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-
-	<?php /** Check for WordPress 4.1.x compatibility */
-	if ( ! function_exists( '_wp_render_title_tag' ) ) { ?>
-		<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<?php } ?>
-
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
